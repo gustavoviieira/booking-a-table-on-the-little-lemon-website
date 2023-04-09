@@ -5,6 +5,10 @@ footer {
   margin-top: auto;
   background-color: #495e57;
 }
+footer h3{
+  color: #fff;
+  text-transform: capitalize;
+}
 
 footer ul,
 footer nav {

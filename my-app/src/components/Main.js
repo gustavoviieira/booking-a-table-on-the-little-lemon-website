@@ -28,7 +28,7 @@ const specialsData = [
   },
 ];
 
- function Highlights() {
+ function Main() {
   const specialsCards = specialsData.map((item) => {
     return (
       <Card
@@ -55,4 +55,4 @@ const specialsData = [
   );
 }
 
-export default Highlights;
+export default Main;
