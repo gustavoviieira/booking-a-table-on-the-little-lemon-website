@@ -1,8 +1,8 @@
 import React from "react";
-import { Card } from "./Card";
+import Card  from "./Card";
 import greekSalad from "../assets/salad.jpg";
 import bruschetta from "../assets/bruchetta.jpg";
-import Spaghetti from "../assets/spaghetti.jpg";
+import lemonDessert from "../assets/LemonDessert.jpg";
 
 const specialsData = [
   {
@@ -20,7 +20,7 @@ const specialsData = [
       "Our Bruschetta is made from grilled bread that has been smeared with garlic and seasoned with salt and olive oil.",
   },
   {
-    img: Spaghetti,
+    img: lemonDessert,
     title: "Lemon Dessert",
     price: 5.0,
     description:

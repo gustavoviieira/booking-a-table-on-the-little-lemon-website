@@ -1,11 +1,11 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import NavBar from "./components/NavBar";
-import Footer from "./components/Footer";
-import Home from "./components/Home";
-import Booking from "./components/Booking";
-import BookingConfirmation from "./components/BookingConfirmation";
-import { useFormContext } from "./components/FormContext";
+import NavBar from "./layouts/NavBar";
+import Footer from "./layouts/Footer";
+import Home from "./pages/Home";
+import Booking from "./pages/Booking";
+import BookingConfirmation from "./pages/BookingConfirmation";
+import { useFormContext } from "./store/FormContext";
 import "./App.css";
 
 function App() {
